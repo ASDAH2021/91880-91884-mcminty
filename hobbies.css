@@ -1,0 +1,80 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "nav nav"
+   "title title"
+  "profileOne header"
+  "sectionOne sectionTwo"
+  "footer footer";
+  grid-gap: 15px;
+}
+
+.nav li {
+  display: inline;
+  padding: 45px
+}
+
+.title{
+  grid-area: title;
+  background-color: white;
+  text-align: center;
+}
+
+
+.nav {
+  grid-area: nav;
+  background-color: gray;
+  padding: 20px;
+}
+
+.nav a {
+  padding: 10px;
+  background-color: white;
+}
+
+.nav a:hover {
+  background-color: gray;
+  color: white;
+}
+
+header {
+  grid-area: header;
+  background-color:red;
+  padding: 80px;
+  font-size: 20px;
+}
+
+.sectionOne {
+  grid-area: sectionOne;
+  background-color:white ;
+
+  
+  
+}
+
+.sectionTwo{
+  grid-area: sectionTwo;
+  background-color: red;
+  padding: 90px;
+  font-size: 20px;
+}
+
+.profileOne { 
+  grid-area: profileOne;
+  background-color:white;  
+}
+
+
+
+img {
+  max-width: 300px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: red;
+  padding: 95px;
+  font-size: 20px;
+}

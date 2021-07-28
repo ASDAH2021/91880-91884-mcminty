@@ -8,7 +8,7 @@
   "profileOne header"
   "sectionOne sectionTwo"
   "footer footer";
-  grid-gap: 15px;
+  grid-gap: 10px;
 }
 
 .nav li {
@@ -41,7 +41,7 @@
 
 header {
   grid-area: header;
-  background-color:greenyellow;
+  background-color:lightgray;
   padding: 80px;
   font-size: 20px;
 }
@@ -56,7 +56,7 @@ header {
 
 .sectionTwo{
   grid-area: sectionTwo;
-  background-color: greenyellow;
+  background-color: lightgray;
   padding: 90px;
   font-size: 20px;
 }
@@ -74,7 +74,7 @@ img {
 
 footer {
   grid-area: footer;
-  background-color: greenyellow;
+  background-color: lightgray;
   padding: 95px;
   font-size: 20px;
 }

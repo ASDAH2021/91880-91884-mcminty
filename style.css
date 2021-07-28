@@ -8,7 +8,7 @@
   "profileOne header"
   "sectionOne sectionOne"
   "footer footer";
-  grid-gap: 15px;
+  grid-gap: 10px;
 }
 
 .title{
@@ -40,7 +40,7 @@
 
 header {
   grid-area: header;
-  background-color: darkgreen;
+  background-color: lightgray;
   padding: 80px;
   font-size: 30px;
 }
@@ -52,7 +52,7 @@ header {
 
 .sectionOne {
   grid-area: sectionOne;
-  background-color: burlywood;
+  background-color: lightgray;
   padding: 95px;
    font-size: 30px;
   
@@ -64,7 +64,7 @@ img {
 
 footer {
   grid-area: footer;
-  background-color:#ffff99;
+  background-color:lightgray;
   padding: 95px;
    font-size: 30px;
 }

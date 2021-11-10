@@ -18,21 +18,27 @@
 
 .title{
   grid-area: title;
-  background-color: white;
+  background-color: whitesmoke;
   text-align: center;
   font-size: 30px;
+  font-family: 'Helvetica', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 .nav {
   grid-area: nav;
-  background-color: gray;
+   background-color: #274C77;
   padding: 20px;
 }
 
 .nav a {
   padding: 10px;
   background-color: white;
+   border-radius: 25px;
+  border: 1px solid royalblue;
+  padding: 10px;
+  
+
 }
 
 .nav a:hover {
@@ -42,29 +48,32 @@
 
 header {
   grid-area: header;
-  background-color:lightgray;
+  background-color: #087CA7;
   padding: 80px;
   font-size: 20px;
+   color: #E7ECEF;
+   
+  
 }
 
 .sectionOne {
   grid-area: sectionOne;
-  background-color:white ;
-
-  
+background-color: white;
   
 }
 
 .sectionTwo{
   grid-area: sectionTwo;
-  background-color: lightgray;
+  background-color: #033860;
   padding: 90px;
   font-size: 20px;
+   color: #E7ECEF;
+  
 }
 
 .profileOne { 
   grid-area: profileOne;
-  background-color:white;  
+  background-color: white;
 }
 
 
@@ -75,7 +84,8 @@ img {
 
 footer {
   grid-area: footer;
-  background-color: gray;
+    background-color: #004385;
   padding: 95px;
   font-size: 20px;
+   color: #E7ECEF;
 }

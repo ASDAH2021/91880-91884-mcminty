@@ -14,9 +14,10 @@
 
 .title{
   grid-area: title;
-  background-color: rgb(255, 255, 255);
+  background-color: whitesmoke;
   text-align: center;
   font-size: 30px;
+  font-family: 'Helvetica', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav li {
@@ -26,13 +27,17 @@
  
 .nav {
   grid-area: nav;
-  background-color: gray;
+  background-color: #274C77;
   padding: 20px;
 }
 
 .nav a {
   padding: 10px;
   background-color:white;
+  border-radius: 25px;
+  border: 1px solid royalblue;
+  padding: 10px;
+  
 }
 
 .nav a:hover {
@@ -54,9 +59,11 @@ header {
 
 .sectionOne {
   grid-area: sectionOne;
-  background-color: lightgray;
+  background-color: #087CA7;
   padding: 95px;
-   font-size: 30px;
+   font-size: 20px;
+    color: #E7ECEF;
+  
   
 }
 
@@ -67,7 +74,9 @@ img {
 
 footer {
   grid-area: footer;
-  background-color:gray;
+   background-color: #033860;
   padding: 95px;
    font-size: 20px;
+    color: #E7ECEF;
+  
 }

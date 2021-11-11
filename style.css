@@ -22,7 +22,6 @@
 
 .nav li {
   display: inline;
-  padding: 45px;
 }
  
 .nav {
@@ -36,12 +35,13 @@
   background-color: white;
   border-radius: 25px;
   border: 1px solid #274C77;
-  padding: 10px;
+  text-decoration: none;
+  color: #274C77;
 }
 
 .nav a:hover {
-  background-color: whitesmoke;
-  color:#274C77 ;
+  background-color: #274C77;
+  color:white ;
 }
 
 header {

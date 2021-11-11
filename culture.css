@@ -22,27 +22,27 @@
 
 .nav li {
   display: inline;
-  padding: 45px
 }
  
 .nav {
-  grid-area: nav;
+   grid-area: nav;
   background-color: #274C77;
   padding: 20px;
 }
 
 .nav a {
   padding: 10px;
-  background-color:white;
+  background-color: white;
   border-radius: 25px;
-  border: 1px solid royalblue;
-  padding: 10px;
+  border: 1px solid #274C77;
+  text-decoration: none;
+  color: #274C77;
   
 }
 
 .nav a:hover {
-  background-color: gray;
-  color: white;
+  background-color: #274C77;
+  color:white ;
 }
 
 header {

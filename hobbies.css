@@ -17,7 +17,7 @@
   
 }
 
-
+/*This styles the title*/
 .title{
   grid-area: title;
   background-color: whitesmoke;
@@ -25,7 +25,7 @@
   font-size: 30px;
 }
 
-
+/*This styles the Navigation bar*/
 .nav {
    grid-area: nav;
   background-color: #274C77;
@@ -50,6 +50,7 @@
   color:white ;
 }
 
+/*This styles the header*/
 header {
   grid-area: header;
  background-color: #087CA7;
@@ -59,6 +60,7 @@ header {
   
 }
 
+/*This styles sectionOne*/
 .sectionOne {
   grid-area: sectionOne;
   background-color:white ;
@@ -66,7 +68,7 @@ header {
   
   
 }
-
+/*This styles sectionTwo*/
 .sectionTwo{
   grid-area: sectionTwo;
   background-color: #033860;
@@ -75,18 +77,18 @@ header {
   color: #E7ECEF;
   
 }
-
+/*This styles profile*/
 .profileOne { 
   grid-area: profileOne;
   background-color:white;  
 }
 
 
-
+/*This styles the img*/
 img {
   max-width: 300px;
 }
-
+/*This styles footer*/
 footer {
   grid-area: footer;
    background-color: #004385;

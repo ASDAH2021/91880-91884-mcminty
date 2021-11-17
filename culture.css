@@ -9,9 +9,10 @@
   "sectionOne sectionOne"
   "footer footer";
   grid-gap: 10px;
+   font-family: 'Helvetica', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+/*This styles the title*/
 .title{
   grid-area: title;
   background-color: whitesmoke;
@@ -23,7 +24,8 @@
 .nav li {
   display: inline;
 }
- 
+
+ /*This styles the navigation bar*/
 .nav {
    grid-area: nav;
   background-color: #274C77;
@@ -39,24 +41,25 @@
   color: #274C77;
   
 }
-
+/*This styles the navigation bar when you hover over the topics*/
 .nav a:hover {
   background-color: #274C77;
   color:white ;
 }
-
+/*This styles the header*/
 header {
   grid-area: header;
   background-color: white;
   font-size: 100px;
 }
 
+/*This styles the profileOne*/ 
 .profileOne { 
   grid-area: profileOne;
   background-color: white; 
    
 }
-
+/*This styles sectionOne*/
 .sectionOne {
   grid-area: sectionOne;
   background-color: #087CA7;
@@ -66,12 +69,13 @@ header {
   
   
 }
-
+/*This styles the img*/
 img {
   max-width: 100%;
   
 }
 
+/*This styles the footer*/
 footer {
   grid-area: footer;
    background-color: #033860;

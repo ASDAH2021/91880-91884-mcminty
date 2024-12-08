@@ -1,0 +1,86 @@
+.container {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "nav nav"
+  "title title"
+  "profileOne header"
+  "sectionOne sectionOne"
+  "footer footer";
+  grid-gap: 10px;
+   font-family: 'Helvetica', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*This styles the title*/
+.title{
+  grid-area: title;
+  background-color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Helvetica', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav li {
+  display: inline;
+}
+
+ /*This styles the navigation bar*/
+.nav {
+   grid-area: nav;
+  background-color: #274C77;
+  padding: 20px;
+}
+
+.nav a {
+  padding: 10px;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #274C77;
+  text-decoration: none;
+  color: #274C77;
+  
+}
+/*This styles the navigation bar when you hover over the topics*/
+.nav a:hover {
+  background-color: #274C77;
+  color:white ;
+}
+/*This styles the header*/
+header {
+  grid-area: header;
+  background-color: white;
+  font-size: 100px;
+}
+
+/*This styles the profileOne*/ 
+.profileOne { 
+  grid-area: profileOne;
+  background-color: white; 
+   
+}
+/*This styles sectionOne*/
+.sectionOne {
+  grid-area: sectionOne;
+  background-color: #087CA7;
+  padding: 95px;
+   font-size: 20px;
+    color: #E7ECEF;
+  
+  
+}
+/*This styles the img*/
+img {
+  max-width: 100%;
+  
+}
+
+/*This styles the footer*/
+footer {
+  grid-area: footer;
+   background-color: #033860;
+  padding: 95px;
+   font-size: 20px;
+    color: #E7ECEF;
+  
+}
